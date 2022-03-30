@@ -1,6 +1,6 @@
-FROM alpine:3.12
+FROM alpine:3.15
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    openjdk11=11.0.7_p10-r1
+    openjdk17=17.0.2_p8-r0
